@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ptgunopar.dynu.net.ptgunopar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DadosImovel2"></activity>
+        <activity android:name=".Imovel" />
+        <activity android:name=".LocalizacaoImovel" />
+        <activity android:name=".DadosImovel" />
+        <activity android:name=".ContatosImovel" />
+        <activity android:name=".ValorImovel" />
+        <activity android:name=".DescricaoImovel" />
+        <activity android:name=".CadastrarNovo" />
+        <activity android:name=".ImoveisCadastrados" />
+        <activity android:name=".Senha" />
+        <activity android:name=".Email" />
+        <activity android:name=".TelefoneCelular" />
+        <activity android:name=".Nascimento" />
+        <activity android:name=".NomeSobrenome" />
+        <activity android:name=".CriarConta" />
+        <activity android:name=".Entrar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">PTG Unopar</string>
+    <string name="Bt_Entrar">Entrar</string>
+    <string name="Tv_BemVindo">Bem Vindo ao Sistema!</string>
+    <string name="Tv_Entrar">Entrar</string>
+    <string name="Tv_DigiteNome">Digite seu nome:</string>
+    <string name="Tv_DigiteSobreNome">Digite seu sobrenome:</string>
+    <string name="Bt_Proximo">Próximo</string>
+    <string name="SobreNome">Sobre Nome...</string>
+    <string name="Nome">Nome...</string>
+    <string name="Tv_DigiteCPF">Digite seu CPF:</string>
+    <string name="Tv_DigiteNascimento">Digite sua data de nascimento:</string>
+    <string name="Tv_DigiteTelefone">Digite seu número de telefone:</string>
+    <string name="Tv_DigiteEmail">Digite seu email:</string>
+    <string name="Email">email@provedor.com</string>
+    <string name="Bt_CriarConta">Criar Conta</string>
+    <string name="Tv_DigiteSenha">Crie uma senha entre 6 e 8 dígitos</string>
+    <string name="Tv_DigiteConfirmacaoSenha">Confirme sua senha:</string>
+    <string name="Tv_DigiteCelular">Digite seu número de celular:</string>
+    <string name="CPF_Invalido">O número de CPF informado é inválido!</string>
+    <string name="Email_Invalido">O endereço de email informado é inválido!</string>
+    <string name="Nascimento_Invalido">A data de nascimento informada é inválida!</string>
+    <string name="Campos_Pendentes">Todos os campos devem ser preenchidos!</string>
+    <string name="DigitosSenha">A senha deve ter entre 6 e 10 dígitos!</string>
+    <string name="ConfirmacaoSenha">As senhas não conferem!</string>
+    <string name="Telefone_Invalido">O número de telefone informado é inválido!</string>
+    <string name="Celular_Invalido">O número de celular informado é inválido!</string>
+    <string name="Cadastro_Sucesso">O cadastro foi realizado com sucesso!</string>
+    <string name="Cadastro_Existente">Já existe um cadastro com este número de CPF!</string>
+    <string name="Cadastro_Inexistente">Não existe um cadastro com este número de CPF!</string>
+    <string name="Cadastro_Erro">Ocorreu um erro ao realizar o cadastro!</string>
+    <string name="Erro_Conexao">Ocorreu um erro ao realizar a conexão com o servidor!</string>
+    <string name="App_Desatualizado">O acesso ao servidor foi negado, talvez seu aplicativo esteja desatualizado.</string>
+    <string name="Senha_Invalida">A senha digitada é inválida! Tente novamente.</string>
+    <string name="Senha_Incorreta">A Senha digitada está incorreta! Tente novamente.</string>
+    <string name="Bem_Vindo">, seja bem vindo ao sistema!</string>
+    <string name="Bt_CadastrarNovo">Cadastrar Novo...</string>
+    <string name="PromptTipoImovel">Selecione o tipo do imóvel</string>
+    <string name="Tv_TipoImovel">Selecione o tipo do imóvel</string>
+    <string name="Bt_Cadastrar">Cadastrar</string>
+    <string name="Tv_TituloImovel">Digite um título para o imóvel:</string>
+    <string name="Tv_DescricaoImovel">Digite uma descrição do imóvel:</string>
+    <string name="Tv_ValorSugeridoImovel">Valor sugerido, baseado nos valores de mercado:</string>
+    <string name="Tv_ValorImovel">Valor de venda:</string>
+    <string name="Tv_ContatoTelefoneImovel">Digite o telefone de contato:</string>
+    <string name="Tv_ContatoCelularImovel">Digite o celular de contato:</string>
+    <string name="Tv_ContatoEmailImovel">Digite o email de contato:</string>
+    <string name="Tv_QuartosImovel">Digite o número de quartos do imóvel:</string>
+    <string name="Tv_SuitesImovel">Digite o número de suítes do imóvel:</string>
+    <string name="Tv_BanheirosImovel">Digite o número de banheiros do imóvel:</string>
+    <string name="Tv_VagasImovel">Digite o número de vagas de garagem do imóvel:</string>
+    <string name="Tv_AreaImovel">Digite a área do imóvel (em m2):</string>
+    <string name="Tv_PiscinaImovel">O imóvel possui piscina?</string>
+    <string name="Tv_CidadeImovel">Digite a cidade onde está localizado o imóvel:</string>
+    <string name="Tv_EstadoImovel">Selecione estado onde está localizado o imóvel:</string>
+    <string name="Tv_BairroImovel">Digite o bairro onde está localizado o imóvel:</string>
+    <string name="Tv_SemRegistros">SEM REGISTROS</string>
+    <string name="ID_Imovel">ID do Imóvel:</string>
+    <string name="Tipo_Imovel">Tipo:</string>
+    <string name="Quartos_Imovel">Quartos:</string>
+    <string name="Suites_Imovel">Suítes:</string>
+    <string name="Banheiros_Imovel">Banheiros:</string>
+    <string name="Vagas_Imovel">Vagas de Garagem:</string>
+    <string name="Area_Imovel">Área:</string>
+    <string name="Piscina_Imovel">Possui Piscina:</string>
+    <string name="Cidade_Imovel">Cidade:</string>
+    <string name="Estado_Imovel">Estado:</string>
+    <string name="Bairro_Imovel">Bairro:</string>
+    <string name="Descricao_Imovel">Descrição:</string>
+    <string name="ValorSugerido_Imovel">Valor Sugerido:</string>
+    <string name="ValorVenda_Imovel">Valor de Venda:</string>
+    <string name="Telefone_Imovel">Telefone de Contato:</string>
+    <string name="Celular_Imovel">Celular de Contato:</string>
+    <string name="Email_Imovel">E-Mail:</string>
+    <string name="ExcluirImovel">Imóvel excluído com sucesso!</string>
+    <string name="ErroExcluirImovel">Ocorreu um erro ao excluir o imóvel!</string>
+    <string name="Bt_ExcluirImovel">Excluir Imóvel</string>
+    <string name="Alerta">Alerta</string>
+    <string name="Sim">Sim</string>
+    <string name="Nao">Não</string>
+    <string name="AlertaFecharAplicativo">Você deseja fechar o aplicativo?</string>
+    <string name="AlertaExcluirImovel">Você tem certeza que deseja excluir esse imóvel?</string>
+    <string name="Cb_UsarDadosCadastro">Usar dados de contato cadastrados</string>
+    <string name="Tv_ReferenciaValorSugerido">Sem referências para este imóvel!</string>
+    <string name="Cb_ValorSugerido">Utilizar o valor sugerido</string>
+    <string-array name="Sp_TipoImovel">
+        <item>Casa</item>
+        <item>Apartamento</item>
+    </string-array>
+    <string-array name="Sp_PiscinaImovel">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+    <string-array name="Sp_LocalizacaoImovel">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+</resources>

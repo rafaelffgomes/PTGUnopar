@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContatosImovel">
+
+    <TextView
+        android:id="@+id/Tv_ContatoTelefoneImovel"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/Tv_ContatoTelefoneImovel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Et_ContatoTelefoneImovel"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="(11) 1234-5678"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_ContatoTelefoneImovel" />
+
+    <CheckBox
+        android:id="@+id/Cb_Telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cb_UsarDadosCadastro"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_ContatoTelefoneImovel" />
+
+    <TextView
+        android:id="@+id/Tv_ContatoCelularImovel"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/Tv_ContatoCelularImovel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cb_Telefone" />
+
+    <EditText
+        android:id="@+id/Et_ContatoCelularImovel"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="(11) 91234-5678"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_ContatoCelularImovel" />
+
+    <CheckBox
+        android:id="@+id/Cb_Celular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cb_UsarDadosCadastro"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_ContatoCelularImovel" />
+
+    <TextView
+        android:id="@+id/Tv_ContatoEmailImovel"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/Tv_ContatoEmailImovel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cb_Celular" />
+
+    <EditText
+        android:id="@+id/Et_ContatoEmailImovel"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Email"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_ContatoEmailImovel" />
+
+    <CheckBox
+        android:id="@+id/Cb_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cb_UsarDadosCadastro"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_ContatoEmailImovel" />
+
+    <Button
+        android:id="@+id/Bt_CadastrarImovel"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:onClick="CadastrarImovel"
+        android:text="@string/Bt_Cadastrar"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cb_Email" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

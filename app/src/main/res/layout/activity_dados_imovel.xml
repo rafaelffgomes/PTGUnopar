@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DadosImovel">
+
+    <TextView
+        android:id="@+id/Tv_QuartosImovel"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/Tv_QuartosImovel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Et_QuartosImovel"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_QuartosImovel" />
+
+    <TextView
+        android:id="@+id/Tv_SuitesImovel"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/Tv_SuitesImovel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_QuartosImovel" />
+
+    <EditText
+        android:id="@+id/Et_SuitesImovel"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_SuitesImovel" />
+
+    <TextView
+        android:id="@+id/Tv_BanheirosImovel"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/Tv_BanheirosImovel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_SuitesImovel" />
+
+    <EditText
+        android:id="@+id/Et_BanheirosImovel"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_BanheirosImovel" />
+
+    <Button
+        android:id="@+id/Bt_ProximoDadosImovel"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:onClick="Proximo"
+        android:text="@string/Bt_Proximo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_BanheirosImovel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

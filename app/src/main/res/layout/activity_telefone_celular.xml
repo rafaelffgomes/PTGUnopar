@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelefoneCelular">
+
+    <TextView
+        android:id="@+id/Tv_DigiteTelefone"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:gravity="center"
+        android:text="@string/Tv_DigiteTelefone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Et_Telefone"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="(11) 1234-5678"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_DigiteTelefone" />
+
+    <TextView
+        android:id="@+id/Tv_DigiteCelular"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/Tv_DigiteCelular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_Telefone" />
+
+    <EditText
+        android:id="@+id/Et_Celular"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="(11) 91234-5678"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tv_DigiteCelular" />
+
+    <Button
+        android:id="@+id/Bt_ProximoTelefoneCelular"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:onClick="Proximo"
+        android:text="@string/Bt_Proximo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Et_Celular" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
