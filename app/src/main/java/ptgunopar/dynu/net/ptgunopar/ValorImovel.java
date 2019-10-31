@@ -129,7 +129,6 @@ public class ValorImovel extends AppCompatActivity {
                         Ion.with(ValorImovel.this)
                                 .load("http://dito.ml:8080/imovel")
                                 .setTimeout(5000)
-                                .setHeader("Content-Type", "application/json")
                                 .setHeader("Secret", dados.getSenhaAcesso())
                                 .setJsonObjectBody(parametros)
                                 .asJsonObject()
